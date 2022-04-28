@@ -1,0 +1,102 @@
+body{
+    background-image: url('img/empty-straight-road-marking-overhead-view-highway-seamless-pattern-roadway-horizontal-template-isolated-white-background-238012635.jpg'), url('img/empty-straight-road-marking-overhead-view-highway-seamless-pattern-roadway-horizontal-template-isolated-white-background-238012635.jpg'), url('img/empty-straight-road-marking-overhead-view-highway-seamless-pattern-roadway-horizontal-template-isolated-white-background-238012635.jpg');
+    background-repeat: no-repeat;
+    background-position: top 190px left 200px, top 330px left 200px, top 470px left 200px ;
+    background-size: 770px 100px;
+}
+
+  #myDIV {
+    height:250px;
+    width: 500px auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 2px;
+    padding-left: 200px;
+    padding-right: 200px;
+    row-gap: 80px;
+}
+  #myDIV div {
+    background-color: rgb(185, 228, 226);
+    position: relative;
+    top: 100px;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+}
+.button{
+    padding: 5px 30px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    opacity: 1;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 1;
+    background-color: rgb(67, 241, 76);
+}
+
+#button2{
+  padding: 5px 30px;
+  top: 60px;
+  bottom: 50px;
+  position: relative;
+  left: 305px;
+}
+label{
+  padding: 10px 20px;
+  top: 50px;
+  color: white;
+  bottom: 50px;
+  position: relative;
+  left: 210px;
+}
+input{
+  padding: 5px 50px;
+  top: 50px;
+  color: rgb(0, 0, 0);
+  bottom: 50px;
+  position: relative;
+  left: 200px;
+}
+.vertical_dotted_line{
+  position: absolute;
+  border-left: 3px dashed rgb(255, 255, 255);
+  height: 700px;
+  left: 100px;
+} 
+.vertical_dotted_line1{
+  position: absolute;
+  border-left: 10px solid rgb(4, 129, 21);
+  height: 700px;
+  left: 200px;
+} 
+.vertical_dotted_line2{
+  position: absolute;
+  border-left: 10px solid rgb(4, 129, 21);
+  height: 700px;
+  left: 0px;
+} 
+.vertical_dotted_line4{
+  position: absolute;
+  border-left: 3px dashed rgb(255, 255, 255);
+  height: 700px;
+  right: 100px;
+} 
+.vertical_dotted_line5{
+  position: absolute;
+  border-left: 10px solid rgb(4, 129, 21);
+  height: 700px;
+  right: 200px;
+} 
+.vertical_dotted_line6{
+  position: absolute;
+  border-left: 10px solid rgb(4, 129, 21);
+  height: 700px;
+  right: 0px;
+} 
+br.dashed {
+  border-top: 3px dashed #bbb;
+}
